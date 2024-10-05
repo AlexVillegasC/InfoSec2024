@@ -7,7 +7,7 @@ const session = require('express-session');
 const { auth, requiresAuth } = require('express-openid-connect');
 const path = require('path');
 const cons = require('consolidate');
-const unalib = require('./unalib'); // Include the unalib module.
+const unalib = require('./unalib'); // Include the unalib module
 
 // SSL options
 const sslOptions = {
