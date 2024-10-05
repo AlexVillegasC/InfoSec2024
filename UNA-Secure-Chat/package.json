@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "consolidate": "^1.0.4",
+    "env-cmd": "^10.1.0",
+    "express": "*",
+    "express-openid-connect": "^2.17.1",
+    "express-session": "^1.18.0",
+    "mocha": "^10.2.0",
+    "socket.io": "*",
+    "swig": "^1.4.2"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.dev node server.js",
+    "test": "mocha"
+  }
+}
